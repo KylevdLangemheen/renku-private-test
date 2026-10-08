@@ -2,7 +2,7 @@
 name = "agentic-workshop"
 version = "0.1.0"
 description = "Shared code for the FCUE LLM agentic workshop hands-on notebooks"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.14"
 dependencies = [
     # LLM client & data models
     "openai>=3.20.0",
