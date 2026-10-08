@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2025-010",
+  "extraction": {
+    "invoice_id": "INV-2025-010",
+    "patient_name": "Peter Huber",
+    "patient_date_of_birth": "1988-01-30",
+    "policy_holder_number": "GM-8802-9021",
+    "insurance_product": "Dentaire Plus",
+    "policy_start_date": "2025-07-20",
+    "provider_name": "Zahnarztpraxis Huber & Partner",
+    "provider_type": "Dentist",
+    "treatment_date": "2025-08-01",
+    "treatment_description": "Composite filling, tooth 14",
+    "notes": "Illness (cavity), not an accident",
+    "amount_chf": 150.0
+  },
+  "coverage_decision": {
+    "verdict": "rejected",
+    "reimbursed_amount_chf": 0.0,
+    "rationale": "Policy started 2025-07-20; non-accident dental benefits are subject to a one-month waiting period, and this illness-related filling on 2025-08-01 falls within that window.",
+    "citations": [
+      "DPAM01-E4 Art.4.2"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "passenger_name": "Sophie Meier",
+  "origin": "Geneva",
+  "destination": "Zurich",
+  "departure_date": "2026-11-14",
+  "seat_row": 23,
+  "seat_letter": "A",
+  "cabin_bag_allowed": true,
+  "travel_class": "Economy"
+}

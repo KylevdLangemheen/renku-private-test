@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2025-005",
+  "extraction": {
+    "invoice_id": "INV-2025-005",
+    "patient_name": "Marc Dubois",
+    "patient_date_of_birth": "1985-11-20",
+    "policy_holder_number": "GM-5820-3312",
+    "insurance_product": "Optimum",
+    "policy_start_date": "2019-01-01",
+    "provider_name": "Institut de Massage Bien-être",
+    "provider_type": "Massage therapist",
+    "treatment_date": "2025-04-25",
+    "treatment_description": "Therapeutic massage, 60 min",
+    "notes": "First massage claim this calendar year",
+    "amount_chf": 90.0
+  },
+  "coverage_decision": {
+    "verdict": "approved",
+    "reimbursed_amount_chf": 67.5,
+    "rationale": "Massage is part of the alternative medicine pool but has its own CHF 500/year sub-cap; 75% of CHF 90 = CHF 67.50, first massage claim this year, under sub-cap.",
+    "citations": [
+      "SOGA01-E1 Art.5 (Alternative medicine treatments – massages sub-cap)"
+    ]
+  }
+}

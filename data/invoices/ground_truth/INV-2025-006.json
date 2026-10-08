@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2025-006",
+  "extraction": {
+    "invoice_id": "INV-2025-006",
+    "patient_name": "Sofia Rossi",
+    "patient_date_of_birth": "1978-02-14",
+    "policy_holder_number": "GM-6193-4410",
+    "insurance_product": "Optimum",
+    "policy_start_date": "2015-06-01",
+    "provider_name": "Clinique Thermale Val d'Anniviers",
+    "provider_type": "Convalescence clinic",
+    "treatment_date": "2025-06-01",
+    "treatment_description": "Thermal cure, 12 days, prescribed by Dr. F. Moret (GP)",
+    "notes": "Prescription attached",
+    "amount_chf": 2400.0
+  },
+  "coverage_decision": {
+    "verdict": "approved",
+    "reimbursed_amount_chf": 2160.0,
+    "rationale": "Prescribed thermal cure, 12 days (under the 30 days/year cap): 90% of CHF 2,400 = CHF 2,160.",
+    "citations": [
+      "SOGA01-E1 Art.5 (Convalescence and thermal cures)"
+    ]
+  }
+}

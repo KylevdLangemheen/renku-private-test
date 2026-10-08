@@ -1,0 +1,24 @@
+{
+  "invoice_id": "INV-2025-012",
+  "extraction": {
+    "invoice_id": "INV-2025-012",
+    "patient_name": "Léa Bernard",
+    "patient_date_of_birth": "1990-05-02",
+    "policy_holder_number": "GM-4471-2201",
+    "insurance_product": "Dentaire Plus",
+    "policy_start_date": "2020-03-01",
+    "provider_name": "Cabinet Dentaire Rive Gauche",
+    "provider_type": "Dentist",
+    "treatment_date": "2025-11-02",
+    "treatment_description": "Emergency repair, broken tooth 11 (cycling fall)",
+    "notes": "Accident: cycling fall",
+    "amount_chf": null,
+    "extraction_note": "Amount is smudged/illegible on the source document (plausible reads: 900.00 or 950.00)."
+  },
+  "coverage_decision": {
+    "verdict": "insufficient_information",
+    "reimbursed_amount_chf": null,
+    "rationale": "The billed amount is smudged/illegible on the form (reads as CHF 9??.??); extraction should flag this field as low-confidence rather than guessing, and the claim should be sent back for a legible copy before a coverage decision can be made.",
+    "citations": []
+  }
+}

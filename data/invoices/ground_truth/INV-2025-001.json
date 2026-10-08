@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2025-001",
+  "extraction": {
+    "invoice_id": "INV-2025-001",
+    "patient_name": "Léa Bernard",
+    "patient_date_of_birth": "1990-05-02",
+    "policy_holder_number": "GM-4471-2201",
+    "insurance_product": "Dentaire Plus",
+    "policy_start_date": "2020-03-01",
+    "provider_name": "Cabinet Dentaire Rive Gauche",
+    "provider_type": "Dentist",
+    "treatment_date": "2025-03-10",
+    "treatment_description": "Composite filling, tooth 26",
+    "notes": "Routine care, illness",
+    "amount_chf": 180.0
+  },
+  "coverage_decision": {
+    "verdict": "approved",
+    "reimbursed_amount_chf": 135.0,
+    "rationale": "Class 1 dental filling, 75% of CHF 180 = CHF 135, under the CHF 1,000/year Class 1 cap.",
+    "citations": [
+      "DPAM01-E4 Art.3.1 (Class 1)"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2025-004",
+  "extraction": {
+    "invoice_id": "INV-2025-004",
+    "patient_name": "Marc Dubois",
+    "patient_date_of_birth": "1985-11-20",
+    "policy_holder_number": "GM-5820-3312",
+    "insurance_product": "Optimum",
+    "policy_start_date": "2019-01-01",
+    "provider_name": "Cabinet d'Ostéopathie Lausanne",
+    "provider_type": "Osteopath",
+    "treatment_date": "2025-04-20",
+    "treatment_description": "Osteopathy session, lower back pain",
+    "notes": "Recognised alternative medicine practitioner",
+    "amount_chf": 140.0
+  },
+  "coverage_decision": {
+    "verdict": "approved",
+    "reimbursed_amount_chf": 105.0,
+    "rationale": "Osteopathy is a recognised alternative medicine treatment: 75% of CHF 140 = CHF 105, well under the CHF 3,000/year pool cap.",
+    "citations": [
+      "SOGA01-E1 Art.5 (Alternative medicine treatments)"
+    ]
+  }
+}

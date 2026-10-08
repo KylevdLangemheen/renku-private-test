@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2025-002",
+  "extraction": {
+    "invoice_id": "INV-2025-002",
+    "patient_name": "Léa Bernard",
+    "patient_date_of_birth": "1990-05-02",
+    "policy_holder_number": "GM-4471-2201",
+    "insurance_product": "Dentaire Plus",
+    "policy_start_date": "2020-03-01",
+    "provider_name": "Cabinet Dentaire Rive Gauche",
+    "provider_type": "Dentist",
+    "treatment_date": "2025-09-15",
+    "treatment_description": "Ceramic crown and bridge, teeth 14-16",
+    "notes": "Routine care, illness",
+    "amount_chf": 6000.0
+  },
+  "coverage_decision": {
+    "verdict": "partial",
+    "reimbursed_amount_chf": 4000.0,
+    "rationale": "Class 3 crown/bridge work: 75% of CHF 6,000 = CHF 4,500, but Class 3 is capped at CHF 4,000/calendar year, so reimbursement is capped at CHF 4,000.",
+    "citations": [
+      "DPAM01-E4 Art.3.1 (Class 3)"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2025-008",
+  "extraction": {
+    "invoice_id": "INV-2025-008",
+    "patient_name": "Ahmed Al-Farsi",
+    "patient_date_of_birth": "1992-07-08",
+    "policy_holder_number": "GM-7745-1183",
+    "insurance_product": "Optimum",
+    "policy_start_date": "2021-09-01",
+    "provider_name": "Clinique de Chirurgie Esthétique Genève",
+    "provider_type": "Plastic surgeon",
+    "treatment_date": "2025-05-05",
+    "treatment_description": "Rhinoplasty (aesthetic nose correction)",
+    "notes": "Elective, not accident-related",
+    "amount_chf": 4500.0
+  },
+  "coverage_decision": {
+    "verdict": "rejected",
+    "reimbursed_amount_chf": 0.0,
+    "rationale": "Elective aesthetic surgery not required following an insured event is explicitly excluded.",
+    "citations": [
+      "CAGA04-E2 Art.18.1.f"
+    ]
+  }
+}

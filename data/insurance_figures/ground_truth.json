@@ -1,0 +1,36 @@
+[
+  {
+    "figure": "fig_premiums.png",
+    "question": "In which year did the average OptiMed premium first rise above the average PrimaCare premium?",
+    "answer": "2023 (OptiMed CHF 341, PrimaCare CHF 329)",
+    "expected": [
+      "2023"
+    ]
+  },
+  {
+    "figure": "fig_dental_by_canton.png",
+    "question": "Which canton has the highest average Dentaire Plus claim, and how much is it?",
+    "answer": "Geneva, CHF 412",
+    "expected": [
+      "Geneva",
+      "412"
+    ]
+  },
+  {
+    "figure": "fig_cost_split.png",
+    "question": "What share of premium income goes to administration?",
+    "answer": "6%",
+    "expected": [
+      "6%"
+    ]
+  },
+  {
+    "figure": "fig_claims_processing.png",
+    "question": "What is the most common time from claim submission to reimbursement?",
+    "answer": "10–15 working days",
+    "expected": [
+      "10",
+      "15"
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "invoice_id": "INV-2025-011",
+  "extraction": {
+    "invoice_id": "INV-2025-011",
+    "patient_name": "Nadia Keller",
+    "patient_date_of_birth": "1995-09-12",
+    "policy_holder_number": "GM-9012-5567",
+    "insurance_product": "PrimaCare",
+    "policy_start_date": "2023-01-01",
+    "provider_name": "Walk-in Clinic Bahnhofstrasse",
+    "provider_type": "General practitioner (not registered GP)",
+    "treatment_date": "2025-05-15",
+    "treatment_description": "Consultation for persistent cough",
+    "notes": "Not seen by registered PrimaCare GP; not an emergency",
+    "amount_chf": 220.0
+  },
+  "coverage_decision": {
+    "verdict": "approved",
+    "reimbursed_amount_chf": null,
+    "rationale": "Seeing a non-registered GP without meeting a listed exception is a compliance matter, but per Art.7 a single instance only triggers a reminder; it does not reduce reimbursement for this specific claim (exclusion from the model only follows two reminders). The claim should be processed at the standard compulsory-insurance rate. Note the applicable edition is RFBA02-E5 (effective 2025-04-01), not the older RFGM02-E3 (effective 2024-01-01), since the treatment date (2025-05-15) postdates the newer edition.",
+    "citations": [
+      "RFBA02-E5 Art.7"
+    ]
+  }
+}
